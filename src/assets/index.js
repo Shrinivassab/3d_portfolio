@@ -13,7 +13,6 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import angular from "./tech/angular.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -22,10 +21,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import patton_labs from "./company/patton_labs.png";
-import in4 from "./company/in4.png";
-import fidelity from "./company/fidelity.png";
-import nielsen from "./company/nielsen.png";
+import meta from "./company/meta.png";
+import shopify from "./company/shopify.png";
+import starbucks from "./company/starbucks.png";
+import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -46,7 +45,6 @@ export {
   git,
   html,
   javascript,
-  angular,
   mongodb,
   nodejs,
   reactjs,
@@ -54,10 +52,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  patton_labs,
-  in4,
-  fidelity,
-  nielsen,
+  meta,
+  shopify,
+  starbucks,
+  tesla,
   carrent,
   jobit,
   tripguide,

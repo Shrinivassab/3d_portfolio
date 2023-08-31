@@ -4,7 +4,6 @@ import {
     creator,
     web,
     javascript,
-    angular,
     typescript,
     html,
     css,
@@ -16,10 +15,10 @@ import {
     git,
     figma,
     docker,
-    patton_labs,
-    fidelity,
-    nielsen,
-    in4,
+    meta,
+    starbucks,
+    tesla,
+    shopify,
     carrent,
     jobit,
     tripguide,
@@ -43,11 +42,11 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Front end Developer",
+        title: "Web Developer",
         icon: web,
     },
     {
-        title: "Full Stack Developer",
+        title: "React Native Developer",
         icon: mobile,
     },
     {
@@ -55,7 +54,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "Dancer",
+        title: "Content Creator",
         icon: creator,
     },
 ];
@@ -76,10 +75,6 @@ const technologies = [
     {
         name: "TypeScript",
         icon: typescript,
-    },
-    {
-        name: "Angular",
-        icon: angular,
     },
     {
         name: "React JS",
@@ -121,11 +116,11 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Full Stack Developer",
-        company_name: "Fidelity",
-        icon: fidelity,
+        title: "React.js Developer",
+        company_name: "Starbucks",
+        icon: starbucks,
         iconBg: "#383E56",
-        date: "July 2020 - Present",
+        date: "March 2020 - April 2021",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -135,8 +130,8 @@ const experiences = [
     },
     {
         title: "React Native Developer",
-        company_name: "Nielsen",
-        icon: nielsen,
+        company_name: "Tesla",
+        icon: tesla,
         iconBg: "#E6DEDD",
         date: "Jan 2021 - Feb 2022",
         points: [
@@ -148,8 +143,8 @@ const experiences = [
     },
     {
         title: "Web Developer",
-        company_name: "Information Insights",
-        icon: in4,
+        company_name: "Shopify",
+        icon: shopify,
         iconBg: "#383E56",
         date: "Jan 2022 - Jan 2023",
         points: [
@@ -161,8 +156,8 @@ const experiences = [
     },
     {
         title: "Full stack Developer",
-        company_name: "Patton Labs",
-        icon: patton_labs,
+        company_name: "Meta",
+        icon: meta,
         iconBg: "#E6DEDD",
         date: "Jan 2023 - Present",
         points: [
