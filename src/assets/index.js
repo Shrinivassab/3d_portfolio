@@ -25,6 +25,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import apollo_associate from "./certificate/apollo_associate.png";
+import apollo_professional from "./certificate/apollo_professional.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +62,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  apollo_associate,
+  apollo_professional
 };

@@ -1,8 +1,8 @@
 import {
     mobile,
-    backend,
-    creator,
+    apollo_professional,
     web,
+    apollo_associate,
     javascript,
     typescript,
     html,
@@ -42,20 +42,20 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Front End Developer",
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "Full Stack Developer",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
-        icon: backend,
+        title: "Apollo Professional",
+        icon: apollo_professional,
     },
     {
-        title: "Content Creator",
-        icon: creator,
+        title: "Apollo Associates",
+        icon: apollo_associate,
     },
 ];
 
