@@ -20,11 +20,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import angular from "./tech/angular.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import patton_labs from "./company/patton_labs.png";
+import in4 from "./company/in4.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import nielsen from "./company/nielsen.png";
+import fidelity from "./company/fidelity.png"
 import apollo_associate from "./certificate/apollo_associate.png";
 import apollo_professional from "./certificate/apollo_professional.png";
 
@@ -55,13 +57,15 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
+  patton_labs,
+  in4,
   starbucks,
-  tesla,
+  nielsen,
   carrent,
   jobit,
   tripguide,
   apollo_associate,
-  apollo_professional
+  apollo_professional,
+  fidelity,
+  angular
 };
