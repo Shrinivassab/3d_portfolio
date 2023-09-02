@@ -15,14 +15,15 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    patton_labs,
+    nielsen,
+    in4,
     carrent,
     jobit,
     tripguide,
     threejs,
+    fidelity,
+    angular
 } from "../assets";
 
 export const navLinks = [
@@ -77,6 +78,10 @@ const technologies = [
         icon: typescript,
     },
     {
+        name: "Angular",
+        icon: angular,
+    },
+    {
         name: "React JS",
         icon: reactjs,
     },
@@ -116,55 +121,63 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Full Stack Developer",
+        company_name: "Fidelity",
+        icon: fidelity,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "July 2020 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Successfully led the modernization effort of the tech stack for a critical application (RPG) used by 3.5 million \n" +
+            "customers annually, resulting in a high performant ad user-friendly experience.",
+            "Led design reviews with peers and stakeholders, leveraging in-depth knowledge of emerging technologies \n" +
+            "such as Nx, Angular, GraphQL, and Node.js to make informed decisions on tech stack selection. Successfully \n" +
+            "implemented code migration, created slunk dashboard resulting in improved scalability of the application.",
+            "Guided the team in Adopting SOLID principles, ensuring the maintainability and scalability of the codebase.",
+            "Created new Schema design for the multi-goal API to fetch the data required to generate new goals.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "UI Developer / Software Engineer",
+        company_name: "Nielsen",
+        icon: nielsen,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "June 2017 - June 2020",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed new features, functionality, and customization of the existing features for the business-critical \n" +
+            "single page application using Angular 2.",
+            "Conducted requirements gathering and validation as a part of collaboration for the high-profile external web \n" +
+            "app to address important UI/UX parts of the system's user interface before the active phase of development.",
+            "Implemented Single Sign-On (SSO) based AuthO JWT authentication and maintained the session state\n" +
+            "information throughout the application and third part software.",
+            "Implemented Lazy loading to improve the performance of loading date from the backend.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Front End Developer",
+        company_name: "In4mation Insight",
+        icon: in4,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "Jan 2017 - May 2017",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Improved the effectiveness of business decisions using data and machine learning/predictive modeling.",
+            "Developed flowcharts and design documents to illustrate requirements, and translated business requirements \n" +
+            "into technical requirements.",
+            "Standardized user account management practices and mitigated code duplicity, integrating third-party \n" +
+            "services and external APIs as a part of the implementation of the high-profile online service",
+            "Integrated Webpack with Bavel, EsLint and Prettier for code formatting, linting and Bower for build process.\n",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "UI Consultant",
+        company_name: "Patton Labs",
+        icon: patton_labs,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "Aug 2016 - Dec 2016",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Analyzed UI components and configured index DB on Chrome browser to store resultant data on client-side.",
+            "Designed CSS style sheet for application-wide usage.",
+            "Served on Adobe Flex to HTML5 migration team to implement all existing features in HTML5.",
+            "Translated business requirements into technical requirements.",
         ],
     },
 ];
