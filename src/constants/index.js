@@ -18,7 +18,7 @@ import {
     patton_labs,
     nielsen,
     in4,
-    carrent,
+    portfolio,
     jobit,
     tripguide,
     threejs,
@@ -77,10 +77,10 @@ const technologies = [
         name: "TypeScript",
         icon: typescript,
     },
-    {
-        name: "Angular",
-        icon: angular,
-    },
+    // {
+    //     name: "Angular",
+    //     icon: angular,
+    // },
     {
         name: "React JS",
         icon: reactjs,
@@ -185,10 +185,10 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
+            "Shrini is wonderful to work with and has excellent command over the front-end frameworks. He is a highly motivated, knowledgeable, and Intelligent developer. In the years I have known him, I have sought his advice on various programming challenges and nuances in creating demo UI applications. So far, his counsel has made my demos better. ",
+        name: "Sura Sundar",
+        designation: "Business Intelligence Engineer",
+        company: "Amazon",
         image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
@@ -211,16 +211,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "3D Portfolio",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "An impressive 3D portfolio crafted with React, Three.js, and Tailwind CSS, offering a unique blend of web development and immersive 3D graphics. Explore my work and skills through an interactive journey that showcases creativity and technical expertise, redefining online portfolio presentation.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "three.js",
                 color: "green-text-gradient",
             },
             {
@@ -228,11 +228,11 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: portfolio,
+        source_code_link: "https://github.com/Shrinivassab/3d_portfolio",
     },
     {
-        name: "Job IT",
+        name: "Multiple project in Node.js",
         description:
             "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
         tags: [
@@ -250,7 +250,7 @@ const projects = [
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Shrinivassab/NodeJS--A-Complete-Guide-",
     },
     {
         name: "Trip Guide",

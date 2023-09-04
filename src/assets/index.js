@@ -32,6 +32,7 @@ import apollo_professional from "./certificate/apollo_professional.png";
 
 
 import carrent from "./carrent.png";
+import portfolio from "./portfolio.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -67,5 +68,6 @@ export {
   apollo_associate,
   apollo_professional,
   fidelity,
-  angular
+  angular,
+  portfolio
 };
