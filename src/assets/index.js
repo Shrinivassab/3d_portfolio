@@ -30,11 +30,15 @@ import fidelity from "./company/fidelity.png"
 import apollo_associate from "./certificate/apollo_associate.png";
 import apollo_professional from "./certificate/apollo_professional.png";
 
+import sura from "./testimonials/sura.png";
+import animeFace from "./testimonials/animeFace.jpg"
 
 import carrent from "./carrent.png";
 import portfolio from "./portfolio.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import node from "./node.png"
+import graphAssociate from "./graphAssociate.png"
 
 export {
   logo,
@@ -69,5 +73,9 @@ export {
   apollo_professional,
   fidelity,
   angular,
-  portfolio
+  portfolio,
+  sura,
+  animeFace,
+  node,
+  graphAssociate
 };

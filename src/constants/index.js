@@ -23,7 +23,11 @@ import {
     tripguide,
     threejs,
     fidelity,
-    angular
+    angular,
+    sura,
+    animeFace,
+    node,
+    graphAssociate
 } from "../assets";
 
 export const navLinks = [
@@ -189,24 +193,24 @@ const testimonials = [
         name: "Sura Sundar",
         designation: "Business Intelligence Engineer",
         company: "Amazon",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+        image: sura,
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "\"I worked closely with Shrinivass at Nielsen for several years. His front-end development work was outstanding, surpassing the quality of others I've encountered. I highly recommend him for his enthusiasm, aptitude for learning, and consistent delivery of high-quality work.\"",
+        name: "Bruce Katz",
+        designation: "Staff Software Quality Assurance Engineer",
+        company: "EF Education First",
+        image: animeFace,
     },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    // {
+    //     testimonial:
+    //         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //     name: "Lisa Wang",
+    //     designation: "CTO",
+    //     company: "456 Enterprises",
+    //     image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
 ];
 
 const projects = [
@@ -234,44 +238,44 @@ const projects = [
     {
         name: "Multiple project in Node.js",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Built modern, fast and scalable server-side web applications with NodeJS, databases like SQL or MongoDB and more.",
         tags: [
             {
-                name: "react",
+                name: "Node.js",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "GraphQL",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "MongoDB",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: node,
         source_code_link: "https://github.com/Shrinivassab/NodeJS--A-Complete-Guide-",
     },
     {
-        name: "Trip Guide",
+        name: "Apollo Associate Cert.",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Having obtained this certification, I possess a solid foundational knowledge of GraphQL and the Apollo tool suite. My expertise encompasses schema design, deploying Apollo Server 4, and executing frontend queries with Apollo Client 3. ",
         tags: [
             {
-                name: "nextjs",
+                name: "GraphQL",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "mutation",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "schema",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: graphAssociate,
+        source_code_link: "https://github.com/Shrinivassab/Shrinivassab-Apollo-Graph-Developer---Associate-Certification",
     },
 ];
 
