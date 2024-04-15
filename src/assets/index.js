@@ -40,6 +40,8 @@ import tripguide from "./tripguide.png";
 import node from "./node.png"
 import graphAssociate from "./graphAssociate.png"
 
+import movieSite from "./movie_site.png"
+
 export {
   logo,
   backend,
@@ -77,5 +79,6 @@ export {
   sura,
   animeFace,
   node,
-  graphAssociate
+  graphAssociate,
+  movieSite
 };
