@@ -27,7 +27,8 @@ import {
     sura,
     animeFace,
     node,
-    graphAssociate
+    graphAssociate,
+    movieSite
 } from "../assets";
 
 export const navLinks = [
@@ -236,16 +237,16 @@ const projects = [
         source_code_link: "https://github.com/Shrinivassab/3d_portfolio",
     },
     {
-        name: "Multiple project in Node.js",
+        name: "Full Stack Development Project",
         description:
-            "Built modern, fast and scalable server-side web applications with NodeJS, databases like SQL or MongoDB and more.",
+            "Build a Full Stack Web Development project for movies(HTML, CSS, JavaScript, Node.js, MongoDB)",
         tags: [
             {
-                name: "Node.js",
+                name: "JavaScript",
                 color: "blue-text-gradient",
             },
             {
-                name: "GraphQL",
+                name: "Node.js",
                 color: "green-text-gradient",
             },
             {
@@ -253,8 +254,8 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: node,
-        source_code_link: "https://github.com/Shrinivassab/NodeJS--A-Complete-Guide-",
+        image: movieSite,
+        source_code_link: "https://shrinivassab.github.io/Movie_Site/",
     },
     {
         name: "Apollo Associate Cert.",
